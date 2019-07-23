@@ -8,7 +8,7 @@ import TitleList from './components/TitleList/TitleList.js';
 function App() {
   return (
     <div>
-      <header className="header">
+      <header className="Header">
         <Logo />
         <Navigation />
       </header>

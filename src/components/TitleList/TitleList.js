@@ -21,8 +21,6 @@ class TitleList extends React.Component {
                 return response.json();
             })
             .then((jsondata) => {
-                console.log("Data: " + jsondata);
-
                 this.setState({ data: jsondata });
             })
             .catch((err) => {

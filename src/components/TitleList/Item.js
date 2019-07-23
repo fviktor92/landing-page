@@ -1,13 +1,13 @@
 import React from 'react';
 import ListToggle from './ListToggle.js';
 
-const Item = ({ key, title, score, overview, backdrop }) => {
+const Item = ({ title, score, overview, backdrop }) => {
     return (
-        <div className="Item" style={{ backgroundImage: 'url(' + this.props.backdrop + ')' }} >
+        <div className="Item" style={{ backgroundImage: 'url(' + backdrop + ')' }} >
             <div className="overlay">
-                <div className="title">{this.props.title}</div>
-                <div className="rating">{this.props.score} / 10</div>
-                <div className="plot">{this.props.overview}</div>
+                <div className="title">{title}</div>
+                <div className="rating">{score} / 10</div>
+                <div className="plot">{overview}</div>
                 <ListToggle />
             </div>
         </div>

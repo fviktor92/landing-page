@@ -2,12 +2,12 @@ import React from 'react';
 
 const Navigation = () => {
     return(
-        <nav id="navigation">
+        <nav id="navigation" className="Navigation">
             <ul>
-                <li>Section 1</li>
-                <li>Section 2</li>
-                <li>Section 3</li>
-                <li>Section 4</li>
+                <li>Browse</li>
+                <li>My list</li>
+                <li>Top picks</li>
+                <li>Recent</li>
             </ul>
         </nav>
     );
